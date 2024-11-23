@@ -22,5 +22,11 @@ print(player_list)
 
 
 
+how to learn the git 
+
+
+
+
+
 
 
