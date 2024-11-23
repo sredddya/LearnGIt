@@ -22,8 +22,8 @@ print(player_list)
 
 
 
-how to learn the git 
-
+#how to learn the git 
+#i have learned
 
 
 
