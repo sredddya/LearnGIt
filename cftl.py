@@ -8,8 +8,8 @@ print("555")'''
 
 
 # Ask the user for two inputs
-input1 = input("Whats your fav beer: ")
-input2 = input("whats your fav color: ")
+input1 = input("Whats your fav color")
+input2 = input("suggest a name")
 
 # Print both inputs in one statementca
-print(f"You entered: First input: {input1}, Second input: {input2}")
+print(f"The new name for the your favourite Beer is {input1}red{input2}")
