@@ -1,4 +1,5 @@
-''''
+
+#Maths Solution
 user_input1=int(input("enter the num1: "))
 user_input2=int(input("enter the num2: "))
 user_choice=input("1.Addition\n2.subtraction\n3.multiplication\n4.Division\n:")
@@ -17,9 +18,8 @@ elif user_choice:
     print(div_num)
 else:
     print("out of scope condition is given")
-'''
 
-'''
+#postive_negative_num
 user_input=(int(input("enter the num")))
 
 if user_input>0:
@@ -27,9 +27,11 @@ if user_input>0:
 elif user_input==0:
     print("enter number is 0")
 else:
-    print("Negative Number")'
-'''
-'''
+    print("Negative Number")
+
+
+
+#dice game using random number
 import random
 user_input=input("do want to play the game:")
 if user_input=="yes":
@@ -46,9 +48,10 @@ if user_input=="yes":
 else:
     print("Thank You! come again when you wish to play")
     
-'''
 
 
+
+#eigibe for voting or not
 user_input=input("Are you a citizen of india Yes/No:\n:")
 if user_input=="yes":
     print("user selected yes")
