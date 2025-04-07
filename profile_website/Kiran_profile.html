@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sai Kiran Reddy - Data Engineer Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo-container">
+      <img src="profile.jpg" alt="Sai Kiran Reddy" class="profile-pic"/>
+      <div class="logo-text">SKR</div>
+      <h1>Sai Kiran Reddy</h1>
+    </div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#achievements">Achievements</a>
+      <a href="https://www.linkedin.com/in/sai-kiran-reddyoptum/" target="_blank">
+        <i class="fab fa-linkedin"></i> LinkedIn
+      </a>      
+      <a href="#experience">Experience</a>
+      <a href="Sai Kiran (1).pdf" download>Download Resume</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="home" class="intro">
+      <h2>Let’s Dive Into My Journey!</h2>
+      <p>I'm a passionate Data Engineer with 5+ years of experience in building scalable data solutions using Hadoop, Spark, AWS, Azure, Snowflake, and real-time streaming technologies. I specialize in designing efficient ETL pipelines, cloud migrations, and end-to-end data workflows for business insights and analytics. Let's connect and innovate together!</p>
+    </section>
+
+    <section id="achievements" class="achievements">
+      <h2>Shining Moments 🏅</h2>
+      <ul>
+        <li>Built robust ETL pipelines using Spark and Python, improving data processing efficiency.</li>
+        <li>Integrated Apache Flink for real-time analytics, enabling live business insights.</li>
+        <li>Successfully migrated on-premise data systems to AWS and Azure cloud platforms.</li>
+        <li>Automated workflows using Apache Airflow and optimized CI/CD pipelines.</li>
+      </ul>
+      <a href="#experience" class="resume-button">Let's join together to add more to this journey!</a>
+    </section>
+
+    <section id="experience">
+      <h2>Work Experience 💼</h2>
+      <div class="tabs">
+        <button class="tab-button active" onclick="showTab('charles')">Charles Schwab</button>
+        <button class="tab-button" onclick="showTab('weaver')">Weaver</button>
+      </div>
+      <div id="charles" class="tab-content active">
+        <ul>
+          <li>Managed data pipelines using AWS services, optimizing workflows.</li>
+          <li>Developed Spark Scala scripts for data aggregation and S3 storage.</li>
+          <li>Integrated real-time analytics with Apache Flink and Kafka.</li>
+          <li>Built robust ETL pipelines from Cloudera to AWS S3 Data Lake.</li>
+          <li>Automated data ingestion with Python and Scala scripts.</li>
+          <li>Utilized Apache Airflow for orchestrating data workflows.</li>
+        </ul>
+      </div>
+      <div id="weaver" class="tab-content">
+        <ul>
+          <li>Optimized data processing workflows using Databricks and Spark.</li>
+          <li>Developed streaming solutions with Kafka and Scala.</li>
+          <li>Automated workflows with Apache Airflow and shell scripts.</li>
+          <li>Designed ETL pipelines with Azure Data Factory.</li>
+          <li>Migrated and optimized data processing in Snowflake.</li>
+        </ul>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    function showTab(tabId) {
+      const contents = document.querySelectorAll('.tab-content');
+      const buttons = document.querySelectorAll('.tab-button');
+
+      contents.forEach(content => content.classList.remove('active'));
+      buttons.forEach(button => button.classList.remove('active'));
+
+      document.getElementById(tabId).classList.add('active');
+      event.target.classList.add('active');
+    }
+  </script>
+</body>
+</html>
