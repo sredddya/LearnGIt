@@ -1,4 +1,4 @@
-
+'''
 #Maths Solution
 user_input1=int(input("enter the num1: "))
 user_input2=int(input("enter the num2: "))
@@ -29,7 +29,7 @@ elif user_input==0:
 else:
     print("Negative Number")
 
-
+'''
 
 #dice game using random number
 import random
@@ -48,7 +48,7 @@ if user_input=="yes":
 else:
     print("Thank You! come again when you wish to play")
     
-
+'''
 
 
 #eigibe for voting or not
@@ -61,4 +61,4 @@ if user_input=="yes":
     elif age<18:
         print("age limit is not up to the mark")
 else:
-    print("Not eligible to vote")
+    print("Not eligible to vote")'''
